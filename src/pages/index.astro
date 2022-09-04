@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Wrapper from "../components/Wrapper/Wrapper.astro";
+import ScreenSize from "../debug/ScreenSize";
+import Header from "../components/Header/Header";
+import Cover from "../components/Cover/Cover";
+import Introduction from "../components/Introduction/Introduction";
+import Footer from "../components/Footer/Footer";
+---
+
+<Layout title='DevRSC Portfolio'>
+  <Wrapper>
+    <ScreenSize />
+    <Header title='dev' title1='RSC' client:load />
+    <Introduction />
+    <Cover />
+  </Wrapper>
+</Layout>
