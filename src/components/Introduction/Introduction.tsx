@@ -1,8 +1,10 @@
+import bg from "../public/bg.svg";
+
 const Introduction = () => {
   return (
     <>
       <div className=''>
-        <div className='from-primary to-secondary text-primary-content -mt-[4rem] grid place-items-center items-end bg-gradient-to-br pt-20'>
+        <div className='from-primary to-secondary text-primary-content -mt-[4rem] grid place-items-center items-end bg-gradient-to-br pt-20 2xl:min-h-screen'>
           <div className='hero-content col-start-1 row-start-1 w-full max-w-7xl flex-col justify-between gap-10 pb-40 lg:flex-row lg:items-end lg:gap-0 xl:gap-20'>
             <div className='lg:pl-10 lg:pb-32'>
               <div className='mb-2 py-4 text-center lg:py-10 lg:text-left'>
