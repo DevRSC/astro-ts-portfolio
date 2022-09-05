@@ -1,4 +1,12 @@
+let card = {
+  title: "Lorem Ipsum",
+  description:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  btntxt: "See More",
+};
+
 const Cover = () => {
+  let { title, description, btntxt } = card;
   return (
     <>
       <div className='bg-base-200 flex flex-col items-center gap-20 py-20'>
@@ -14,10 +22,10 @@ const Cover = () => {
                     <img src='https://placeimg.com/400/225/arch' alt='Shoes' />
                   </figure>
                   <div className='card-body'>
-                    <h2 className='card-title'>Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <h2 className='card-title'>{title}</h2>
+                    <p>{description}</p>
                     <div className='card-actions justify-end'>
-                      <button className='btn btn-primary'>Buy Now</button>
+                      <button className='btn btn-primary'>{btntxt}</button>
                     </div>
                   </div>
                 </div>
@@ -28,10 +36,10 @@ const Cover = () => {
                     <img src='https://placeimg.com/400/225/arch' alt='Shoes' />
                   </figure>
                   <div className='card-body'>
-                    <h2 className='card-title'>Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <h2 className='card-title'>{title}</h2>
+                    <p>{description}</p>
                     <div className='card-actions justify-end'>
-                      <button className='btn btn-primary'>Buy Now</button>
+                      <button className='btn btn-primary'>{btntxt}</button>
                     </div>
                   </div>
                 </div>
@@ -42,10 +50,10 @@ const Cover = () => {
                     <img src='https://placeimg.com/400/225/arch' alt='Shoes' />
                   </figure>
                   <div className='card-body'>
-                    <h2 className='card-title'>Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <h2 className='card-title'>{title}</h2>
+                    <p>{description}</p>
                     <div className='card-actions justify-end'>
-                      <button className='btn btn-primary'>Buy Now</button>
+                      <button className='btn btn-primary'>{btntxt}</button>
                     </div>
                   </div>
                 </div>

@@ -20,11 +20,11 @@ const Introduction = () => {
                   href='/components'
                   className='btn btn-ghost btn-active lg:btn-lg normal-case'
                 >
-                  <span className='hidden sm:inline'>See components</span>
-                  <span className='inline sm:hidden'>Components</span>
+                  <span className='hidden sm:inline'>XL 👌😎</span>
+                  <span className='inline sm:hidden'>SM 👌😲</span>
                 </a>
                 <a href='/docs/install' className='btn lg:btn-lg normal-case'>
-                  How to use?
+                  Know More
                 </a>
               </div>
             </div>
